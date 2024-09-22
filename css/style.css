@@ -163,3 +163,6 @@ p {
     display: flex;
     justify-content: center;
 }
+html, body {
+    overflow-x: hidden;
+}
