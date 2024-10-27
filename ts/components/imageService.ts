@@ -1,5 +1,5 @@
 import { Image } from '../types/imageTypes';
-import { openModal } from '../modals/modal';
+import { openModal } from './modal';
 
 export async function fetchImages(): Promise<void> {
     try {

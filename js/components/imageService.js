@@ -1,4 +1,4 @@
-import { openModal } from '../modals/modal.js';
+import { openModal } from './modal.js';
 export async function fetchImages() {
     try {
         const response = await fetch('https://jsonplaceholder.typicode.com/photos?_limit=3');

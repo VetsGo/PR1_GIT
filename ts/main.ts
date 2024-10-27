@@ -1,6 +1,6 @@
-import { initializeModals, closeModal } from './modals/modal';
-import { fetchImages } from './image/imageService';
-import { createCarousel, initializeCarousel } from './carousel/carousel';
+import { initializeModals, closeModal } from './components/modal';
+import { fetchImages } from './components/imageService';
+import { createCarousel, initializeCarousel } from './components/carousel';
 
 document.addEventListener('DOMContentLoaded', () => {
     initializeModals();
